@@ -5,26 +5,26 @@
 class Talon < Formula
   desc "Multi-frontend AI agent with full tool access, streaming, cron jobs, and plugins"
   homepage "https://github.com/dylanneve1/talon"
-  version "3.0.1"
+  version "3.0.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dylanneve1/talon/releases/download/v3.0.1/talon-darwin-arm64"
-      sha256 "5e6b30ce66970600e37447752d2df0c317f1309043f040af34a01ceb0af00883"
+      url "https://github.com/dylanneve1/talon/releases/download/v3.0.2/talon-darwin-arm64"
+      sha256 "d1e0a893d970a290cdb1b4ae3b79b49aa047e90c5402848745a3f200ec33fb8e"
     else
-      url "https://github.com/dylanneve1/talon/releases/download/v3.0.1/talon-darwin-x64"
-      sha256 "e80bb0514f4cf628b7e0a4f4998ea80d5a173154aad89f4a84c0c21784603fb3"
+      url "https://github.com/dylanneve1/talon/releases/download/v3.0.2/talon-darwin-x64"
+      sha256 "606dcf89ead8035a25ced240267e7441fd291c1437591f857801a0b897704c19"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/dylanneve1/talon/releases/download/v3.0.1/talon-linux-arm64"
-      sha256 "75be464f7ed6e094f55c973840ea5f17728fb339236389f1b1de45110737b41c"
+      url "https://github.com/dylanneve1/talon/releases/download/v3.0.2/talon-linux-arm64"
+      sha256 "304cc57854b2ba70cb2e309f7db5103f494d89771428e481fa4ef3eda63909d0"
     else
-      url "https://github.com/dylanneve1/talon/releases/download/v3.0.1/talon-linux-x64"
-      sha256 "e63276fee7d2e816dbff573db461426a4dbc27f330f424a840ef9a9878ac4fa3"
+      url "https://github.com/dylanneve1/talon/releases/download/v3.0.2/talon-linux-x64"
+      sha256 "8a0fbc8d7ae7ab0047479f52f987b78d7ce8e2dce337c2591f026bbe9387e636"
     end
   end
 
