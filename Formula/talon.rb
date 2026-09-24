@@ -4,27 +4,27 @@
 # Homebrew formula for Talon — auto-bumped by the talon publish workflow.
 class Talon < Formula
   desc "Multi-frontend AI agent with full tool access, streaming, cron jobs, and plugins"
-  homepage "https://github.com/dylanneve1/talon"
-  version "5.18.0"
+  homepage "https://github.com/thefalconry/talon"
+  version "5.18.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dylanneve1/talon/releases/download/v5.18.0/talon-darwin-arm64"
-      sha256 "825cfd08801094a46d1a099389eef98cf8b4efa9ba4af43568b2686db2ac8fe9"
+      url "https://github.com/thefalconry/talon/releases/download/v5.18.1/talon-darwin-arm64"
+      sha256 "b75c992696c1ba4fab9c162f105c5efc0028614a83ed85fff82e812726537ee4"
     else
-      url "https://github.com/dylanneve1/talon/releases/download/v5.18.0/talon-darwin-x64"
-      sha256 "c00b5a116e8294296867c995f3625bfc153be5edd57be44e07b11d1b4c32e916"
+      url "https://github.com/thefalconry/talon/releases/download/v5.18.1/talon-darwin-x64"
+      sha256 "b11edaaa999fa1c1af4ea1cfb93e24612cf11a7c1e5526732440be1fe37cf90d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/dylanneve1/talon/releases/download/v5.18.0/talon-linux-arm64"
-      sha256 "f7d83fe6597504ab68d3242a3a9a07a329d568d2a8bc3376909daa304ae7614e"
+      url "https://github.com/thefalconry/talon/releases/download/v5.18.1/talon-linux-arm64"
+      sha256 "576b9b4127077dad9e76ad813b9cef205a3a5aefd8314d82b1827ea334fa4ebe"
     else
-      url "https://github.com/dylanneve1/talon/releases/download/v5.18.0/talon-linux-x64"
-      sha256 "63f089c1937fb6d0cca53983d36d8b6f07643cee5b3e75d56adec5dc7cbd69d5"
+      url "https://github.com/thefalconry/talon/releases/download/v5.18.1/talon-linux-x64"
+      sha256 "7fb8f8ab4982bca0cdc75e1cfbb96d32e29b5059946c828740e275e1bfce0291"
     end
   end
 
